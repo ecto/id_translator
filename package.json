@@ -7,13 +7,14 @@
     "security",
     "encryption"
   ],
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "git://github.com/alanfairless/id_translator.git"
   },
   "main": "./lib/main",
   "dependencies": {
-    "bignum": "0.5.4"
+    "bignum": "0.6.0"
   },
   "devDependencies": {},
   "optionalDependencies": {},
@@ -21,7 +22,6 @@
     "node": "*"
   },
   "readmeFilename": "README.md",
-  "gitHead": "a56268abfad16638688f09ed119857c4a0d219d1",
   "scripts": {
     "test": "node lib/test.js"
   },
